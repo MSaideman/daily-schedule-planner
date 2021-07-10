@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -21,7 +24,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-  
+
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -31,135 +34,127 @@
     <div class="container">
       <!-- Timeblocks go here -->
       <table>
-        <tr>
-          <th>Time</th>
-          <th>To Do List</th>
-          <tH>Save/Delete</tH>
-        </tr>
-      <tr>
-        <td class="row row-1 hour">1AM</td>
-        <td><input type="text" id="input-field-1" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-2 hour">2AM</td>
-        <td><input type="text"id="input-field-2" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-3 hour">3AM</td>
-        <td><input type="text"id="input-field-3" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-4 hour">4AM</td>
-        <td><input type="text" id="input-field-4" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-5 hour">5AM</td>
-        <td><input type="text" id="input-field-5" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-6 hour">6AM</td>
-        <td><input type="text" id="input-field-6" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-7 hour">7AM</td>
-        <td><input type="text" id="input-field-7" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-8 hour">8AM</td>
-        <td><input type="text" id="input-field-8" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-9 hour">9AM</td>
-        <td><input type="text" id="input-field-9" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-10 hour">10AM</td>
-        <td><input type="text" id="input-field-10" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-11 hour">11AM</td>
-        <td><input type="text" id="input-field-11" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-12 hour">12PM</td>
-        <td><input type="text" id="input-field-12" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-13 hour">1PM</td>
-        <td><input type="text" id="input-field-13" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-14 hour">2PM</td>
-        <td><input type="text" id="input-field-14" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-15 hour">3PM</td>
-        <td><input type="text" id="input-field-15" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-16 hour">4PM</td>
-        <td><input type="text" id="input-field-16" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-17 hour">5PM</td>
-        <td><input type="text" id="input-field-17" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-18 hour">6PM</td>
-        <td><input type="text" id="input-field-18" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-19 hour">7PM</td>
-        <td><input type="text" id="input-field-19" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-20 hour">8PM</td>
-        <td><input type="text" id="input-field-20" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-21 hour">9PM</td>
-        <td><input type="text" id="input-field-21" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-22 hour">10PM</td>
-        <td><input type="text" id="input-field-22" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-23 hour">11PM</td>
-        <td><input type="text" id="input-field-23" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
-      <tr>
-        <td class="row row-24 hour">12AM</td>
-        <td><input type="text" id="input-field-24" class="description"></td>
-        <td><button class="saveBtn"></td>
-      </tr>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>To Do List</th>
+            <th>Save/Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">8AM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-8" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">9AM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-9" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">10AM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-10" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">11AM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-11" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">12PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-12" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">1PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-13" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">2PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-14" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">3PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-15" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">4PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-16" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">5PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-17" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">6PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-18" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+          <tr class="row time-block">
+            <td class="col-sm-1 hour">7PM</td>
+            <td class="col-sm-10">
+              <input type="text" id="input-field-19" class="description" />
+            </td>
+            <td class="col-sm-1">
+              <button class="saveBtn"><i class="fas fa-save"></i></button>
+            </td>
+          </tr>
+        </tbody>
       </table>
     </div>
-    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
