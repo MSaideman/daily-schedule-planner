@@ -1,7 +1,7 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-Deployed URL:
-Github URL:
+Deployed URL: https://msaideman.github.io/daily-schedule-planner/
+Github URL: https://github.com/MSaideman/daily-schedule-planner
 
 ## User Story
 
@@ -28,3 +28,5 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+
+![screencapture-msaideman-github-io-daily-schedule-planner-2021-07-12-09_19_27](https://user-images.githubusercontent.com/82477037/125322180-54f16000-e2f2-11eb-8e81-d954036d0826.png)
