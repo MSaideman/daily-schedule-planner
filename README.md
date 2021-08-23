@@ -3,6 +3,12 @@
 Deployed URL: https://msaideman.github.io/daily-schedule-planner/
 Github URL: https://github.com/MSaideman/daily-schedule-planner
 
+## Description
+
+Build your schedule using a simple layout that will color coordinate if the time block has already happened (red) or is in the future (green).
+
+![screencapture-msaideman-github-io-daily-schedule-planner-2021-07-12-09_19_27](https://user-images.githubusercontent.com/82477037/125322180-54f16000-e2f2-11eb-8e81-d954036d0826.png)
+
 ## User Story
 
 ```md
@@ -29,7 +35,17 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-![screencapture-msaideman-github-io-daily-schedule-planner-2021-07-12-09_19_27](https://user-images.githubusercontent.com/82477037/125322180-54f16000-e2f2-11eb-8e81-d954036d0826.png)
+## Installation
+
+None.
+
+## Usage
+
+Type to-do list in input section. Click the save button if you want to save this task. This will be saved locally.
+
+## License
+
+This project is covered under the MIT License.
 
 Copyright (c) 2012-2021 Scott Chacon and others
 
@@ -51,3 +67,7 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contact Information
+
+Please email me with any questions on this project: mbsaideman@gmail.com
